@@ -87,4 +87,4 @@ jobs:
               ${{ secrets.DOCKERHUB_USERNAME }}/nginx-env:latest
 
             sleep 3
-            curl -f http://localhost/health && echo "Deploy OK!"
+            curl -f http://localhost/ && echo "Deploy OK!"
