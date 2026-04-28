@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 
-ENV="TESTE"
+ENV="FALA FELIPE!!!!!!!!"
 
 # Injeta as variáveis no HTML de template → arquivo servido
 sed \
